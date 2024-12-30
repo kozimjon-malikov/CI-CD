@@ -3,7 +3,7 @@ import React from 'react'
 export default function User() {
     return (
         <div>
-            Users new
+            CI CI is working
         </div>
     )
 }
