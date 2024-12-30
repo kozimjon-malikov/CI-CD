@@ -55,7 +55,7 @@ export default function Posts() {
     if (error) return <p className='text-2xl text-rose-600 font-bold'>Error....</p>
     return (
         <div className='container mx-auto my-3'>
-            <button className='bg bg-blue-500 px-3 py-2 rounded-md text-white m-3'>
+            <button className='bg bg-blue-500 px-3 py-2 rounded-md text-white m-3' onClick={() => setOpen(true)}>
                 Create
             </button>
             <div className="relative overflow-x-auto shadow-md sm:rounded-lg">
